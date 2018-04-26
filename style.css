@@ -1,0 +1,123 @@
+body {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+header {
+    width: 100%;
+}
+
+div {
+    /* temporary set for log tracking dev. */
+    //background-color: beige;
+    //border: 1px dashed cadetblue;
+}
+
+.searchbox form input{
+    height: 2.75em;
+}
+
+.searchbox form input[type=text] {
+    width: 30em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: mediumblue;
+    cursor: pointer;
+}
+
+#main {
+    display: flex;
+}
+
+.search-results {
+    flex: 2;
+}
+
+.assistant {
+    flex: 1;
+    margin: 1em;
+    position: relative;
+    border: 1px solid #e6e6e6;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.assistant ol {
+    margin-top: 0;
+}
+
+.assistant ul{
+    margin-top: 0.5em;
+}
+
+.assistant-cover {
+    position: absolute;
+    background-color: lightseagreen;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    line-height: 2em;
+    font-size: 2em;
+}
+
+.assistant-cover p {
+    color: white;
+    text-align: center;
+}
+
+#showlogs {
+    /* temporary div for showing log outputs */
+    position: absolute;
+    top: 30%;
+    left: 0;
+
+}
+
+.search-results>span {
+    color: darkgray;
+}
+
+ul.result-list {
+    margin-top: 2em;
+}
+
+.result-list li {
+    margin-bottom: 2em;
+}
+
+.result-list li h3.title {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: mediumblue;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.result-list li span.link {
+    color: cornflowerblue;
+}
+
+li p.snippet {
+    margin: 0;
+    color: dimgray;
+}
