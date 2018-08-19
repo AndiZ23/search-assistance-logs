@@ -30,4 +30,4 @@ _To record the web logs using jQuery+AJAX techniques._
 
 2. With the jQuery's post method, log those events into the database (MariaDB, MySQL), which processed by **writeLogs2db.php**.
 ---
-*NOTE: For security purposes, this repository doesn't include a db connect file (I'm not showing my password in the public XD), and I erased the Bing API Key as well (which's already expired anyway). *
+*NOTE: For security purposes, this repository doesn't include a db connect file (I'm not showing my password in the public XD), and I erased the Bing API Key as well (which's already expired anyway).*
