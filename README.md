@@ -1,5 +1,5 @@
 # search-assistance-logs
-A search interface (implemented with Bing Search API) for a User Research on two different of search assistance tools. 
+A search interface (implemented with Bing Search API) for a User Research on two different kinds of search assistance tools. 
 ###### There were 8 participants in the User Research; 4 tasks during each study session. 
 
 ### Functionalities:
